@@ -1,0 +1,21 @@
+{
+    "name": "erik.riccioppo/the-oracle",
+    "description": "Find everything you need. Query the Oracle.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^10.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Oracle\\": "src/",
+            "Oracle\\Test\\": "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Erik Riccioppo",
+            "email": "erikdavinci@gmail.com"
+        }
+    ],
+    "require": {}
+}
